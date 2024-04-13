@@ -1,19 +1,14 @@
-//
-//  Model.swift
-//  IosCodeChallenge
-//
-//  Created by daniel ortiz millan on 12/04/24.
-//
 
-import Foundation
+
 // This file was generated from JSON Schema using quicktype, do not modify it directly.
 // To parse the JSON, add this file to your project and do:
 //
-//   let iosCodeChallengeTtle = try? JSONDecoder().decode(IosCodeChallengeTtle.self, from: jsonData)
+//   let titles = try? JSONDecoder().decode(Titles.self, from: jsonData)
 
+import Foundation
 
-// MARK: - IosCodeChallengeTtleElement
-struct IosCodeChallengeTtleElement: Codable {
+// MARK: - Title
+struct Title: Codable {
     let userID, id: Int
     let title, body: String
 
@@ -23,4 +18,5 @@ struct IosCodeChallengeTtleElement: Codable {
     }
 }
 
-typealias IosCodeChallengeTtle = [IosCodeChallengeTtleElement]
+//typealias Titles = [Title]
+

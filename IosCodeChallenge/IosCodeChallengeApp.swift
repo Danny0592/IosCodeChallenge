@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct IosCodeChallengeApp: App {
+struct Titles: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -15,6 +15,8 @@
 		47DF57EF2BC9F38E00A6CBD0 /* IosCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF57EE2BC9F38E00A6CBD0 /* IosCodeChallengeUITests.swift */; };
 		47DF57F12BC9F38E00A6CBD0 /* IosCodeChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF57F02BC9F38E00A6CBD0 /* IosCodeChallengeUITestsLaunchTests.swift */; };
 		47DF58022BC9FBA000A6CBD0 /* TitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF58012BC9FBA000A6CBD0 /* TitleModel.swift */; };
+		47DF58042BCA0C3100A6CBD0 /* TitleApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF58032BCA0C3100A6CBD0 /* TitleApiClient.swift */; };
+		47DF58062BCA13D200A6CBD0 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF58052BCA13D200A6CBD0 /* TitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		47DF57EE2BC9F38E00A6CBD0 /* IosCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosCodeChallengeUITests.swift; sourceTree = "<group>"; };
 		47DF57F02BC9F38E00A6CBD0 /* IosCodeChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosCodeChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		47DF58012BC9FBA000A6CBD0 /* TitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModel.swift; sourceTree = "<group>"; };
+		47DF58032BCA0C3100A6CBD0 /* TitleApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleApiClient.swift; sourceTree = "<group>"; };
+		47DF58052BCA13D200A6CBD0 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 		47DF57FD2BC9FA7A00A6CBD0 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				47DF58032BCA0C3100A6CBD0 /* TitleApiClient.swift */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 		47DF57FF2BC9FAC900A6CBD0 /* TitleView */ = {
 			isa = PBXGroup;
 			children = (
+				47DF58052BCA13D200A6CBD0 /* TitleView.swift */,
 			);
 			path = TitleView;
 			sourceTree = "<group>";
@@ -294,7 +300,9 @@
 			files = (
 				47DF58022BC9FBA000A6CBD0 /* TitleModel.swift in Sources */,
 				47DF57D62BC9F38D00A6CBD0 /* ContentView.swift in Sources */,
+				47DF58042BCA0C3100A6CBD0 /* TitleApiClient.swift in Sources */,
 				47DF57D42BC9F38D00A6CBD0 /* IosCodeChallengeApp.swift in Sources */,
+				47DF58062BCA13D200A6CBD0 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
