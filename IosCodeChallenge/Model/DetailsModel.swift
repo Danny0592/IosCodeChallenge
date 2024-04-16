@@ -11,7 +11,7 @@ import Foundation
 //
 //   let iosCodeChallengeTtle = try? JSONDecoder().decode(IosCodeChallengeTtle.self, from: jsonData)
 import Foundation
-
+// second screen model (modelo de segunda pantalla)
 // MARK: - Detail
 struct PostComents: Codable {
     let postID: Int
@@ -19,7 +19,7 @@ struct PostComents: Codable {
     let name: String
     let email: String
     let body: String
-
+    
     enum CodingKeys: String, CodingKey {
         case postID = "postId"
         case id, name, email, body

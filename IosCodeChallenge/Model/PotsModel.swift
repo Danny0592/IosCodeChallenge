@@ -12,7 +12,7 @@ import Foundation
 //   let posts = try? JSONDecoder().decode(Posts.self, from: jsonData)
 
 import Foundation
-
+// first screen model (modelo de primer pantalla)
 // MARK: - Post
 struct Post: Codable {
     let userID: Int

@@ -5,10 +5,17 @@
 //  Created by daniel ortiz millan on 13/04/24.
 //
 
+//
+//  DetailsView.swift
+//  IosCodeChallenge
+//
+//  Created by daniel ortiz millan on 13/04/24.
+//
+
 import Foundation
 
 
-class DetailsViewModel: ObservableObject {
+class DetailsViewModel: ObservableObject { // nombr3 de la  {
     @Published var comentsPosts: [PostComents]?
     @Published var error: Error?
     
@@ -30,4 +37,6 @@ class DetailsViewModel: ObservableObject {
         }
         
     }
+    
+    
 }

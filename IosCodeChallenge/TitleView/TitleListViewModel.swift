@@ -7,7 +7,15 @@
 
 import Foundation
 
-class TitleListViewModel: ObservableObject {
+protocol PostsProtocol {
+    var postTitle: [Post]? { get }
+    func getPosts()
+}
+
+
+class TitleListViewModel: ObservableObject, PostsProtocol {
+    var postTitle: [Post]?
+    
     @Published var PostsTitle: [Post]?
     @Published var error: Error?
     

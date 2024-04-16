@@ -7,7 +7,7 @@
 
 import Foundation
 
-
+// GET REQUEST" TO GET FEEDBACK (OBTENER SOLICITUD" PARA OBTENER COMENTARIOS)
 class APIClient {
     
     func getDetails(completion: @escaping (Result<[PostComents], Error>) -> Void) {
@@ -39,7 +39,7 @@ class APIClient {
         
     }
     
-//"GET REQUEST" TO GET POSTS TITLES
+//"GET REQUEST" TO GET POSTS TITLES (OBTENER SOLICITUD" PARA OBTENER TÍTULOS DE PUBLICACIONES)
     
     func getPostsapi(completion: @escaping (Result<[Post], Error>) -> Void) {
         

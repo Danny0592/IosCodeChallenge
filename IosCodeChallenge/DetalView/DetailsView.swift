@@ -5,6 +5,13 @@
 //  Created by daniel ortiz millan on 13/04/24.
 //
 
+//
+//  DetailsView.swift
+//  IosCodeChallenge
+//
+//  Created by daniel ortiz millan on 13/04/24.
+//
+
 import SwiftUI
 
 struct PostDetailView: View {
@@ -36,4 +43,3 @@ struct PostDetailView: View {
         
     }
 }
-
